@@ -5,7 +5,7 @@
 1. cd ~/catkin_ws/src
 2. catkin_create_pkg turtlesim_lawnmower
 3. Download this repository, copy all these files into ~/catkin_ws/src/turtlesim_lawnmower
-4. cd ~/catkin_ws/src
+4. cd ~/catkin_ws
 5. Run command: catkin_make
 6. roscore // To begin ROS Master
 7. rosrun turtlesim turtlesim_node   // To initiate turtlesim
