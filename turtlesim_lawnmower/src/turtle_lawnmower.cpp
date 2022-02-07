@@ -167,27 +167,47 @@ void drawLawnmower()
 	setOrientation(0);
 	loop.sleep();
 
+
+	rotateTurtle(conv2Rad(20), conv2Rad(180), true);
+	loop.sleep();
+
 	moveTurtle(a/2, true);
 	loop.sleep();
-	rotateTurtle(conv2Rad(20), conv2Rad(90), true);
-	loop.sleep();
-	moveTurtle(b,true);
 
 	rotateTurtle(conv2Rad(20), conv2Rad(90), true);
 	loop.sleep();
+
+	moveTurtle(b,true);
+	loop.sleep();
+
+	rotateTurtle(conv2Rad(20), conv2Rad(90), true);
+	loop.sleep();
+
 	moveTurtle(a,true);
+	loop.sleep();
+
 	rotateTurtle(conv2Rad(20), conv2Rad(theta), true);
 	loop.sleep();
+
 	moveTurtle(diagonal, true);
+	loop.sleep();
 
 	rotateTurtle(conv2Rad(20), conv2Rad(theta), false);
 	loop.sleep();
+
 	moveTurtle(a,true);
-	rotateTurtle(conv2Rad(20), conv2Rad(90), false);
 	loop.sleep();
-	moveTurtle(b, true);
 
 	rotateTurtle(conv2Rad(20), conv2Rad(90), false);
 	loop.sleep();
-	moveTurtle(a/2, true);
+
+	moveTurtle(b,true);
+	loop.sleep();
+
+	rotateTurtle(conv2Rad(20), conv2Rad(90), false);
+	loop.sleep();
+
+	moveTurtle(a/2,true);
+	loop.sleep();
+
 }
